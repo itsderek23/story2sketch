@@ -8,7 +8,7 @@ Convert [Storybook](https://storybook.js.org) stories into [Sketch](https://www.
 
 ## Quickstart
 
-Firstly, get [Sketch](https://sketchapp.com) and [npm](https://nodejs.org/en/download/). Then install [`asketch2sketch.sketchplugin`](https://github.com/html-sketchapp/html-sketchapp/releases/download/v4.3.0/asketch2sketch-4-3-0.sketchplugin.zip) into Sketch:
+Firstly, get [Sketch](https://sketchapp.com) and [npm](https://nodejs.org/en/download/). Then install [`asketch2sketch.sketchplugin`](https://github.com/html-sketchapp/html-sketchapp/releases/download/v4.4.1/asketch2sketch-4-4-1.sketchplugin.zip) into Sketch:
 
 <img src="https://i.imgur.com/9eDm6NQ.png" width="450" alt="Installing Sketch plugin" title="Installing Sketch plugin" />
 
@@ -36,7 +36,7 @@ Success!
 
 ### Storybook 3.x
 
-If you're using Storybook 3.3 or above (but not Storybook 4), you'll want to [take full control of your Storybook webpack.config.js](https://storybook.js.org/configurations/custom-webpack-config/#full-control-mode) if you haven't already done so, adding:
+If you're using Storybook 3.3 or above (but not Storybook 4 or above), you'll want to [take full control of your Storybook webpack.config.js](https://storybook.js.org/configurations/custom-webpack-config/#full-control-mode) if you haven't already done so, adding:
 
 ```js
 module.exports = (storybookBaseConfig, configType) => {
